@@ -3,13 +3,13 @@ using namespace std;
 typedef long long ll;
 
 int main() {
-    ll n, x, y, mod = 1e9 + 7;
-    scanf("%lld %lld", &n, &x);
-    vector<ll> coins(n);
+    ll n, m, x;
+    cin >> n >> m;
+    vector<ll>nums(n);
     for (int i = 0; i < n; i++) {
-        cin >> y;
-        coins[i] = y;
+        cin >> x;
+        nums[i] = x;
     }
-    
+
     return 0;
 }
