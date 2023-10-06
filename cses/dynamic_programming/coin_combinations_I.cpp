@@ -1,7 +1,8 @@
-#include <bits/stdc++.h>
+#include <vector>
+#include <iostream>
 using namespace std;
 typedef long long ll;
-
+ 
 int main() {
     ll n, x, y, mod = 1e9 + 7;
     scanf("%lld %lld", &n, &x);
